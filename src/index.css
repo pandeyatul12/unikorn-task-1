@@ -1,13 +1,159 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.main--container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 700px;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.main--nav {
+  background-color: grey;
+  width:400px;
+  height: 400px;
+}
+
+.button-1,.button-2,.button-3{
+  border-radius: 50%;
+  border: none;
+  font-size: 40px;
+  width: 50px;
+  margin-left: 120px;
+  margin-top: 60px;
+  background-color: aqua;
+  cursor: pointer;
+}
+
+.button-1:hover,.button-2:hover,.button-3:hover{
+  background-color: blue;
+  transition: 0.5s;
+  color:white;
+}
+
+.button-2,.button-3 {
+  margin-left:0px;
+}
+
+.nav-button-gap{
+  font-size: 60px;
+  width: 50px;
+  margin-top: 60px;
+  padding-bottom: 50%;
+  margin: 0px -2px;
+}
+
+.details{
+  margin-left: 175px;
+  margin-top: 20px;
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+label{
+  margin-left: 100px;
+  margin-top: 20px;
+  font-weight: normal;
+  align-items: center;
+  font-size: 20px;
+}
+
+input{
+  height: 20px;
+  margin-left:20px;
+}
+
+.phone-no{
+  width:165px;
+  margin-left: 18.5px;
+  border: none;
+}
+
+.details-form{
+  margin-top:15px;
+}
+
+.main-next-btn{
+  margin-left: 310px;
+  width:75px;
+  margin-top: 25%;
+  border: none;
+  cursor: pointer;
+}
+
+.other-details-form{
+  margin-top:20px;
+  box-sizing: border-box;
+} 
+ 
+
+.other-details{
+  margin-left: 140px;
+  margin-top: 20px;
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+.address{
+  margin-left: 4px;
+  max-height: 31px;
+  max-width: 164px;
+  overflow: hidden;
+}
+
+.gender{
+  margin-left: 9px;
+  max-height: 31px;
+  max-width: 165px;
+  outline:none;
+}
+
+.other-details-back-btn{
+  margin-left: 20px;
+  width:75px;
+  margin-top: 25%;
+  border: none;
+  cursor: pointer;
+}
+
+.other-details-next-btn{
+  margin-left: 210px;
+  width:75px;
+  margin-top: 27%;
+  border: none;
+  cursor: pointer;
+}
+
+.preview-submit-btn{
+  margin-left: 210px;
+  width:75px;
+  margin-top: 10%;
+  border: none;
+  cursor: pointer;
+}
+
+.preview-back-btn{
+  margin-left: 20px;
+  width:75px;
+  border: none;
+  cursor: pointer;  
+}
+
+.other-details-gender{
+  margin-left: 10px;
+}
+
+.btn{
+  background-color: aqua;
+}
+
+.btn:hover{
+  background-color: blue;
+  transition: 0.5s;
+  color:white
+}
+
+.preview-address{
+  margin-left: 2px;
+  max-height: 31px;
+  max-width: 164px;
+  overflow: hidden;
 }
